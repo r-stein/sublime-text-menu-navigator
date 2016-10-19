@@ -1,0 +1,20 @@
+[
+    {
+        "caption": "MenuNavigator: Show Menu",
+        "command": "menu_navigator_show_menu"
+    },
+    {
+        "caption": "MenuNavigator: Show Main Menu",
+        "command": "menu_navigator_show_menu",
+        "args": {
+            "id_choices": ["Main"]
+        }
+    },
+    {
+        "caption": "MenuNavigator: Show Package Settings",
+        "command": "menu_navigator_show_menu",
+        "args": {
+            "id_choices": ["Main", "Preferences", "Package Settings"]
+        }
+    }
+]
